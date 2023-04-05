@@ -8,7 +8,7 @@ export const Logo = () => {
       // <div className="tile-icon">
       <div>
         <div id="logo" draggable="false" className="logo">
-        <Image src={logo.src}       alt='logo image svg' height={16} width={16}/>
+        <Image src={logo.src}       alt='logo image svg' height={48} width={48}/>
 
         </div>
       </div>
@@ -20,7 +20,7 @@ export const Logo = () => {
    
       <div>
         <div id="signature" draggable="false" className="signature">
-          <Image src={signature.src}  alt='Signature image svg' height={16} width={16}/>
+          <Image src={signature.src}  alt='Signature image svg' height={32} width={116}/>
         </div>
         </div>
     
