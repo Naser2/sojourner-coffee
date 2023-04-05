@@ -395,9 +395,9 @@ export default function HeroAndNav() {
           </div>
           </div>
         </section>
-        <div class="lg:hidden lg:flex lg:items-center rounded-md h-100 w-100 justify-center text-center pt-10 ">
-          <a class="mt-0 pt-4 sm:pt-10 text-3xl font-bold tracking-tight  sm:text-7xl text-white ">Breakfast</a></div>
-        <div id="gallery" className='sm:grid sm:grid-cols-2 px-3 sm:px-20 sm:pt-20  pb-20'>
+        <div class="lg:flex lg:items-center rounded-md h-100 w-100 justify-center text-center pt-8 ">
+          <a class="mt-0 pt-4 sm:pt-6 text-3xl font-bold tracking-tight  sm:text-7xl text-white ">Breakfast</a></div>
+        <div id="gallery" className='sm:grid sm:grid-cols-2 px-3 sm:px-20 sm:pt-20  pb-8'>
         <div class="hidden lg:hidden flex lg:items-center bg-black rounded-md h-100 w-100 my-4">   <div className="cols-3">
           <div className='mx-auto max-w-7xl px-6 lg:px-8 '>
                 <Image
@@ -416,7 +416,7 @@ export default function HeroAndNav() {
             <div id="gallery-sm " className="sm:hidden"><CoffeesSM/>  </div>
         </div>
             <div className="cols-2">
-              <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+              <div className='mx-auto max-w-7xl px-6 lg:px-8 pb-4'>
                     <Image
                       src={image2.src}
                       alt='App screenshot'
@@ -426,9 +426,9 @@ export default function HeroAndNav() {
                     />
                  
                   </div>
-                  <div id="last-breafast-image-price" className="mt-16 sm:mt-24 mx-20 sm:px-20">
-                        <h3 class="mt-4 text-xl text-gray-700">Baggle + Coffee</h3>
-                  <p className='mt-1 text-lg font-medium text-gray-900'>
+                  <div id="last-breafast-image-price" className="mt-12 sm:mt-24 mx-20 sm:px-20">
+                        <h3 class="mt-6 mb-2 text-xl text-gray-100">Baggle + Coffee</h3>
+                  <p className=' -mt-4 sm:-mt-0 text-lg font-medium text-gray-100/90'>
                 $9
               </p>
                   </div>
@@ -542,7 +542,7 @@ export default function HeroAndNav() {
                 </blockquote>
                 <figcaption className='mt-8 text-base'>
                   <div className='font-semibold text-white'>Judith Samake</div>
-                  <div className='mt-1 text-gray-600'>Harlem Resident</div>
+                  <div className='-mt-1 text-gray-300/80'>Harlem Resident</div>
                 </figcaption>
               </figure>
             </div>

@@ -67,11 +67,11 @@ let router = useRouter()
         >
           <div className='flex lg:flex-1'>
             <a href='#' className='-m-1.5 p-1.5'>
-              <span className='sr-only'>Your Company</span>
+              <span className='sr-only'>Sojourner </span>
               <Logo/>
             </a>
           </div>
-          <div className='flex lg:hidden'>
+          <div className='flex'>
             <button
               type='button'
               className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400'
@@ -117,12 +117,20 @@ let router = useRouter()
          </> 
             ))}
           </div>
-          {/* <div id="lg-login" className='hidden lg:flex lg:flex-1 lg:justify-end'>
+          <div id="lg-login" className='hidden lg:flex lg:flex-1 lg:justify-end'>
             <a href='#' className='text-sm font-semibold leading-6 text-white'>
               Log in <span aria-hidden='true'>&rarr;</span>
             </a>
-          </div> */}
+          </div>
         </nav>
+        <Transition appear show={mobileMenuOpen} as={Fragment}
+          enter="transition ease-out duration-100"
+          enterFrom="transform opacity-0 scale-95"
+          enterTo="transform opacity-100 scale-100"
+          leave="transition ease-in duration-75"
+          leaveFrom="transform opacity-100 scale-100"
+          leaveTo="transform opacity-0 scale-95"
+        >
         <Dialog
           as='div'
           className='lg:hidden'
@@ -133,7 +141,7 @@ let router = useRouter()
           <Dialog.Panel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
             <div className='flex items-center justify-between'>
               <a href='#' className='-m-1.5 p-1.5'>
-                <span className='sr-only'>Your Company</span>
+                <span className='sr-only'>Sojourner Coffee</span>
                 <Logo/>
               </a>
               <button
@@ -184,18 +192,19 @@ let router = useRouter()
                    
                   ))}
                 </div></>
-                {/* <div className='py-6'>
+                <div className='py-6'>
                   <a
                     href='#'
                     className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
                   >
                     Log in
                   </a>
-                </div> */}
+                </div>
               </div>
             </div>
           </Dialog.Panel>
         </Dialog>
+        </Transition>
       </header>
 
     </>

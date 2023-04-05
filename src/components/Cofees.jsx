@@ -105,8 +105,8 @@ export  const Coffees = () => {
                   className='h-64 w-64 breakfast-image xl:w-84 xl:h-84 object-cover object-center group-hover:opacity-75'
                 />
               </div>
-              <h3 className='mt-4 text-sm text-gray-700'>{image.name}</h3>
-              <p className='mt-1 text-lg font-medium text-gray-900'>
+              <h3 className='mt-4 text-sm text-white'>{image.name}</h3>
+              <p className='mt-1 text-lg font-medium text-gray-100'>
                 {image.price}
               </p>
             </a>
@@ -120,7 +120,7 @@ export  const Coffees = () => {
 export  const CoffeesSM = () => {
   return (
     <div className='periwinkle'>
-      <div className='mx-auto max-w-2xl px-4 py-16 lg:max-w-7xl lg:px-8'>
+      <div className='mx-auto max-w-2xl px-4 pt-10  pb-6 lg:max-w-7xl lg:px-8'>
         <h2 className='sr-only'>Products</h2>
 
         <div className='grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8'>
@@ -135,8 +135,8 @@ export  const CoffeesSM = () => {
                   className='h-34  w-34 object-cover object-center group-hover:opacity-75'
                 />
               </div>
-              <h3 className='mt-4 text-sm text-gray-700'>{image.name}</h3>
-              <p className='mt-1 text-lg font-medium text-gray-900'>
+              <h3 className='mt-4 text-sm text-white'>{image.name}</h3>
+              <p className='-mt-1 text-lg font-medium text-gray-100'>
                 {image.price}
               </p>
             </a>

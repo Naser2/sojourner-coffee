@@ -24,7 +24,7 @@ export default function  About(){
     
       <div className="mt-6 flex flex-col gap-y-20 gap-x-8 lg:flex-row">
         <div className="lg:w-full lg:max-w-2xl lg:flex-auto lg:-mt-20 lg:pr-10 ">
-          <p className="hidden lg:flex text-xl  text-left leading-8 text-gray-600 dark:text-slate-300">
+          <p className="hidden lg:flex text-xl  text-left leading-8 text-gray-100/80 ">
           I worked in the coffee industry for years , and shared a deep passion for coffee. I loved the way it brought people together and the sense of community it fostered. I  dreamed of opening my own coffee shop, a place where people could gather and connect over their shared love of coffee...  
             <br />
             <br />
@@ -74,7 +74,7 @@ Today, our coffee shop is a thriving business, but more importantly, it&apos;s a
     </div>
   </div>
     </div>
-    <p className="lg:hidden text-left mt-10 leading-8 text-gray-600 dark:text-slate-300">
+    <p className="lg:hidden text-left mt-10 leading-8 text-gray-100/80 ">
   
           I worked in the coffee industry for years , and shared a deep passion for coffee. I loved the way it brought people together and the sense of community it fostered. I  dreamed of opening my own coffee shop, a place where people could gather and connect over their shared love of coffee...  
             <br />
@@ -91,6 +91,6 @@ Today, our coffee shop is a thriving business, but more importantly, it&apos;s a
    
        </p>    
 
-<h4 className="pt-10 px-4 sm:text-center">- The Sojourner Coffee</h4>
+<h4 className="pt-10 px-4 sm:text-center text-slate-200/80 lg:text-3xl">- The Sojourner Coffee</h4>
   </div>
 }
