@@ -1,0 +1,108 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import './prism.css';
+@import 'tailwindcss/utilities';
+
+.black-2-bg {
+  background-color: #20232a;
+}
+.dark .dark\:black-2-bg {
+  background-color: #20232a;
+}
+.crisp-black {
+  background-color: #171616;
+}
+.logo{
+  width: 62px;
+  height: 66px;
+}
+@media (max-width: 768px) {.logo{
+  width: 44px;
+  height:20px;
+}}
+
+.signature{
+  width: 162px;
+  height: 166px;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px){
+.signature {
+    width: 190px;
+    height: 30px;
+    margin-top: -19px;
+    margin-left: 20px;
+}
+}
+@media (max-width: 668px){
+.signature {
+    margin-left: 104px;
+}
+}
+
+.text-marigold{
+  color: #FAb45C;
+  }
+
+.marigold{
+background-color: #FAb45C;
+}
+.linen{
+  background-color: #F9F2E9;
+}
+.periwinkle{background-color: #8EA3C5}
+.periwinkle-bg-1 {
+  background-color: #8ea3c557;
+}
+.periwinkle-text{color: #8EA3C5}
+@media(min-width: 1370px) {
+  .breakfast-image {
+    height: 18rem !important; 
+    width: 18rem !important;
+  }
+}
+@media(min-width: 1509px) {
+  .breakfast-image {
+    height: 20rem !important; 
+    width: 20rem !important;
+  }
+}
+@media(min-width: 1609px) {
+  .breakfast-image {
+    height: 23rem !important; 
+    width: 23rem !important;
+  }
+}
+.breakfast-image {
+  height: 16rem ; 
+  width: 16rem ;
+}
+.text-on-periwinkle-transparent {
+color: rgb(201 225 255 / 74%);
+}
+.bg-transparent-more {
+  
+    background-color: #0000000d;
+
+
+}
+.w-84{
+  width: 18rem;
+}
+.periwinkle-transparent {
+  background-color: #8ea3c53b;
+}
+.lavender {
+  background-color: #9C95BA;
+}
+/* .from-marigold{
+  background-color: linear-gradient(#e0c4a2, #FAb45C) !important
+} */
+.from-marigold {
+  background: linear-gradient(#3c3b38,#a07a4af0, #e5b991,#FAb45C);
+}
+
+.cls-1{fill:#8da2c4}
+.cls-2{fill:#fff}
+.cls-3{fill:none;  stroke:#fff;  stroke-miterlimit:10;  stroke-width:2px   }
