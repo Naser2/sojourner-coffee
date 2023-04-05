@@ -28,8 +28,8 @@ import {Logo}  from './Logo'
 import {Signature} from './Logo'
 import menuImage1 from '../images/menuImage-1.png'
 import menuImage2 from '../images/menuImage-2.png'
-import {Coffees} from './cofees';
-import {CoffeesSM} from './cofees';
+import {Coffees} from './Cofees';
+import {CoffeesSM} from './Cofees';
 import breakfast from '@/images/breakfast.png'
 import Image from 'next/image';
 import Link from 'next/link';
