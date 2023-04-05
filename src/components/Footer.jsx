@@ -129,16 +129,16 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div id="footer-signature" className='sm:flex justify-center block mt-20 sm:mt-56 '>
+       
+      </div>
+       <div id="footer-signature" className='sm:flex justify-center block mt-20 sm:mt-46 '>
         <p className="text-sm text-zinc-400 dark:text-zinc-500">
             &copy; {new Date().getFullYear()} Sojourner Coffee. All rights
             reserved.
           </p>
-          <h4 className="text-xs text-zinc-600 dark:text-zinc-500 px-4">
+          <h4 className="flex inline-flex text-xs text-zinc-600 dark:text-zinc-500 px-4">
             Build by NasDesign
           </h4>    </div>
-      </div>
-      
     </div>
   </footer>
   )

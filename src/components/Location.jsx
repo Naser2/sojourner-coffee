@@ -6,14 +6,14 @@ import Image from 'next/image';
 import Link  from 'next/link';
 export default function Location() {
         return (
-          <div className="bg-black">
+          <div className="bg-black  border-b border-b-indigo-200">
             <div className="mx-auto max-w-7xl py-24">
              
-             <div id="location-detail-wrappeer" className="w-full  sm:px-6 sm:pt-12  sm:pb-12 lg:px-8 periwinkle">
+             <div id="location-detail-wrappeer" className="w-full  sm:px-6 sm:pt-12  sm:pb-12 lg:px-8 periwinkle\">
              {/* <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                     Address
                     </h2> */}
-               <div className="relative isolate overflow-hidden periwinkle px-0 pt-16 shadow-2xl sm:px-0 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+               <div className="relative isolate overflow-hidden periwinkle px-0 pt-10 shadow-2xl sm:px-0 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
                 <svg
                   viewBox="0 0 1024 1024"
                   className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]
@@ -30,7 +30,8 @@ export default function Location() {
                 </svg>
          
                 <div className="text-left
-                mx-auto max-w-xl text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left pb-6 ">    
+                mx-auto max-w-xl text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left pb-6 ">  
+                     <h2 class="text-3xl font-bold tracking-tight sm:text-4xl   sm:px-6 lg:px-8 font-semibold leading-7 text-indigo-50">Sojourner Coffee</h2>  
                  <h2 className="text-base font-semibold leading-7 text-indigo-200 sm:px-6 lg:px-8 px-4 ">
                     #harlemsojourner
                     </h2>
