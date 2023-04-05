@@ -12,8 +12,8 @@ export default function  About(){
     </div>
     <div className='mx-auto max-w-4xl text-center lg:max-w-6xl'>
 
-    <p className='mt-2 text-4xl font-bold tracking-tight text-white sm:text-7xl lg:pb-20 '>
-       About Sojourner Coffee 
+    <p className='mt-2 text-4xl  text-indigo-100 font-bold tracking-tight  sm:text-7xl lg:pb-20 '>
+       About <span className='leading-7 text-white italic'>Sojourner Coffee</span>
       </p>
      
       <div
