@@ -17,13 +17,13 @@ function NavLink({ href, children }) {
 const footerNavigation = {
   Menu: [
     ,
-    { name: 'Coffee', href: '#' },
-    { name: 'Ground Cooffee', href: '#' },
+    { name: 'Menu', href: '/menu' },
+    { name: 'Ground Cooffee', href: '/groundedcoffees' },
   ],
   About: [
     { name: 'About Us', href: '/about' },
     { name: 'Fairtrade', href: '#' },
-    { name: 'Insights', href: '#' },
+    // { name: 'Insights', href: '#' },
   ],
   Location: [
     { name: '137 W 116th St, NY, NY', href: 'https://www.google.com/maps/uv?pb=!1s0x89c2f7832df2e2b3%3A0x5fc1b216d9289a8e!3m1!7e115!4s%2Fmaps%2Fplace%2Fsojourner%2Bcoffee%2Baddress%2F%4040.8027283%2C-73.9513302%2C3a%2C75y%2C31.64h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sjffgC2FynBBP-uq-xjffLg*212e0*214m2*213m1*211s0x89c2f7832df2e2b3%3A0x5fc1b216d9289a8e%3Fsa%3DX!5ssojourner%20coffee%20address%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2sjffgC2FynBBP-uq-xjffLg&hl=en&sa=X&ved=2ahUKEwiMwryk5pH-AhXHkYkEHbEmDZcQpx96BQi4ARAN' },
